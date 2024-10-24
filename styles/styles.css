@@ -5,6 +5,5 @@ h1 {
 .container{
     position: absolute;
     left: 15%;
-    top: 20%;  
-    transform: translateY(10%);
+    top: 25%;  
 }
