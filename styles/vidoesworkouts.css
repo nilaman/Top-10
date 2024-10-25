@@ -1,83 +1,62 @@
 h1 {
     font-family: 'Work Sans';font-size: 55px;
     color: white;
-    width: 700px;
+    width: 800px;
     text-align: center;
-    font-weight: bolder;
-}
-
-#navbarbgcolor{
-  background-color: #1e1e1e;
-}
-
-#navbarfontcolor{
-  color: white;
-}
-
-h2{
+  }
+  
+  h2{
   font-family: 'Work Sans';font-size: 55px;
     color: white;
-    width: 700px;
+    width: 800px;
     text-align: left;
     margin-left: 33px;
     font-weight: bold;
-}
-
-h3{
-    font-family: 'Work Sans';font-size: 20px;
-    width: 390px;
-    text-align: left;
-    margin-left: 5px;
-}
-p{
+  }
+  p{
   color:white;
   text-align: center;
-}
-
-#bg{
+  }
+  
+  #bg{
   background-color: #1e1e1e;
-}
-
-#gradientimg {
+  }
+  
+  #gradientimg {
   height: 300px;
   width: auto;
   mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(30, 30, 30, 1) 100%);
   mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(30,30,30,0.80) 100%);
-}
-
-.centerstreamcardtitle{
+  }
+  
+  .centerstreamcardtitle{
   margin-left: 30px;
   margin-top: 40px; 
-}
-
-.centerworkoutcardtitle{
+  }
+  
+  .centerworkoutcardtitle{
   margin-left: 720px;
   margin-top: -140px;
-}
-
-.streamcontainer{
+  }
+  
+  .streamcontainer{
     position: absolute;
     left: 15%;
     top: 35%;  
-}
-
-.workoutcontainer{
+  }
+  
+  .workoutcontainer{
   position: absolute;
   left: 60%;
   top: 35%;
-}
-
-img{
-    width: 400px;
-    height: 400px;
-    object-fit: fill;
-}
-
-.flip-card {
+  }
+  
+  .flip-card {
     background-color: transparent;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     perspective: 1000px;
+    margin-left:35px;
   }
   
   /* This container is needed to position the front and back side */
@@ -116,51 +95,78 @@ img{
     color: black;
     transform: rotateY(180deg);
     }
-
-body{
+  
+  body{
     background-color: #1a2a29;
-}
+  }
 
-.group1{
-  margin-left: 25px;
-  position: absolute;
-  margin-top: 20px;
-}
-
-.group2{
-  margin-left: 510px;
-  position: absolute;
-  margin-top: 20px;
-}
-
-.group3{
-  margin-left: 1000px;
-  position: absolute;
-  margin-top: 20px;
-}
-
-.group4{
-  margin-left:25px;
-  position: absolute;
-  margin-top: 480px;
-}
-
-.group5{
-  margin-left: 510px;
-  margin-top: 490px;
-  margin-bottom: 55px;  
-  /* Group 5 only one without absolute position so that it adds a margin at the bottom of the page */
-}
-
-.arrowcontainer{
-  font-size: 400px;
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  margin-left: 1015px;
-  margin-top: -600px;
-}
-a{
-  color:white;
-  text-decoration: none;
-}
+  .YTInclinePress{
+  width: 300px;
+  margin-left:35px;
+  }
+  .YTLatPD{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: -364.5px;
+    margin-left: 385px;
+    width: 300px;
+  }
+  .YTLegPress{
+    position: absolute;
+    margin-top: -364.5px;
+    margin-left: 750px;
+    width: 300px;
+  }
+  .YTFlatDBPress{
+    position: absolute;
+    margin-top: -364.5px;
+    margin-left: 1100px;
+    width: 300px;
+  }
+  .YTHamCurl{
+    position: absolute;
+    width: 300px;
+    margin-top: 75px;
+    margin-right: -50px;
+    margin-left: 35px;
+  }
+  .YTLegExt{
+    margin-left: 300px;
+    position: absolute;
+    margin-left: 385px;
+    width: 300px;
+    margin-top: 75px;
+  }
+  .YTTriPD{
+    margin-left: 300px;
+    position: absolute;
+    margin-left: 750px;
+    width: 300px;
+    margin-top: 75px;
+  }
+  .YTSeatedCableRow{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 1100px;
+    width: 300px
+  }
+  .YTDBCurl{
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 385px;
+    width: 300px;
+  }
+  .YTCableLatRaise{
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 750px;
+    width: 300px;
+  }
+  
+  #navbarbgcolor{
+    background-color: #1e1e1e;
+  }
+  
+  #navbarfontcolor{
+    color: white;
+  }

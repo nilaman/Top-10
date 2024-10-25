@@ -213,3 +213,11 @@ margin-left: 300px;
   margin-left: 750px;
   width: 300px;
 }
+
+#navbarbgcolor{
+  background-color: #1e1e1e;
+}
+
+#navbarfontcolor{
+  color: white;
+}
