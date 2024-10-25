@@ -47,8 +47,8 @@ p{
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
+    margin-left:35px;
   }
   
   /* This container is needed to position the front and back side */
@@ -86,7 +86,7 @@ p{
     background-color: white;
     color: black;
     transform: rotateY(180deg);
-  }
+    }
 
 body{
     background-color: #1a2a29;
@@ -96,14 +96,17 @@ body{
     margin-left: 300px;
     position: absolute;
     margin-top: -300px;
+    margin-left: 350px;
 }
 .PrimeVideo{
     margin-left: 600px;
     position: absolute;
     margin-top: -300px;
+    margin-left: 710px;
 }
 .AppleTV{
     margin-left: 900px;
     position: absolute;
     margin-top: -300px;
-}
+    margin-left: 1065px;
+  }
