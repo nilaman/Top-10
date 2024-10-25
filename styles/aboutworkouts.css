@@ -1,14 +1,14 @@
 h1 {
     font-family: 'Work Sans';font-size: 55px;
     color: white;
-    width: 800px;
+    width: 700px;
     text-align: center;
 }
 
 h2{
   font-family: 'Work Sans';font-size: 55px;
     color: white;
-    width: 800px;
+    width: 700px;
     text-align: left;
     margin-left: 33px;
     font-weight: bold;
@@ -69,7 +69,6 @@ img{
     width: 400px;
     height: 400px;
     perspective: 1000px;
-    margin-left:35px;
   }
   
   /* This container is needed to position the front and back side */
@@ -111,4 +110,48 @@ img{
 
 body{
     background-color: #1a2a29;
+}
+
+.group1{
+  margin-left: 25px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.group2{
+  margin-left: 510px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.group3{
+  margin-left: 1000px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.group4{
+  margin-left:25px;
+  position: absolute;
+  margin-top: 480px;
+}
+
+.group5{
+  margin-left: 510px;
+  margin-top: 490px;
+  margin-bottom: 55px;  
+  /* Group 5 only one without absolute position so that it adds a margin at the bottom of the page */
+}
+
+.arrowcontainer{
+  font-size: 400px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-left: 1015px;
+  margin-top: -600px;
+}
+a{
+  color:white;
+  text-decoration: none;
 }
