@@ -159,19 +159,19 @@ margin-left:35px;
 margin-left: 300px;
   position: absolute;
   margin-top: -364.5px;
-  margin-left: 350px;
+  margin-left: 385px;
   width: 300px;
 }
 .NewPrimeVideo{
   position: absolute;
   margin-top: -364.5px;
-  margin-left: 350px;
+  margin-left: 750px;
   width: 300px;
 }
 .NewAppleTV{
   position: absolute;
   margin-top: -364.5px;
-  margin-left: 350px;
+  margin-left: 1100px;
   width: 300px;
 }
 .NewHBOMax{
@@ -179,4 +179,37 @@ margin-left: 300px;
   width: 300px;
   margin-top: 75px;
   margin-right: -50px;
+  margin-left: 35px;
+}
+.NewParamount{
+  margin-left: 300px;
+  position: absolute;
+  margin-left: 385px;
+  width: 300px;
+  margin-top: 75px;
+}
+.NewYTTV{
+  margin-left: 300px;
+  position: absolute;
+  margin-left: 750px;
+  width: 300px;
+  margin-top: 75px;
+}
+.NewPeacock{
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 1100px;
+  width: 300px
+}
+.NewDisney{
+  position:absolute;
+  margin-top: 500px;
+  margin-left: 385px;
+  width: 300px;
+}
+.NewTubi{
+  position:absolute;
+  margin-top: 500px;
+  margin-left: 750px;
+  width: 300px;
 }
