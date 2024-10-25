@@ -98,9 +98,6 @@ p{
 
 body{
     background-color: #1a2a29;
-    width: 100%;
-    max-width: 1920px; /* or any desired max width */
-    margin: auto; /* centers the content */
 }
 
 .Netflix{
